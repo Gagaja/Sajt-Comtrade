@@ -1,0 +1,358 @@
+/* Body */
+
+*{
+    box-sizing: border-box;
+}
+#page-content {
+    margin: auto;
+    max-width: 1600px;
+}
+
+body {
+    background: url(../images/doodles.png);
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: auto;
+    height: 100%;
+}
+table{
+    border-collapse: collapse;
+}
+/* Header */
+
+header {
+    border: 2px solid rgb(156, 156, 156);
+    background-color: rgb(255, 255, 255, 0.7);
+    padding: 25px;
+}
+
+header div {
+    margin: 0 15px;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+header .left-section {
+    padding-bottom: 35px;
+    width: 15%;
+    float: left;
+}
+
+header .left-section img {
+    text-align: left;
+    width: 150px;
+}
+
+header .center {
+    width: 60%;
+    float: left;
+}
+
+header .center h1 {
+    font-size: 40px;
+    margin: 5px 10px;
+}
+
+header .center h1 p {
+    display: inline;
+}
+
+header .center h1 p:first-letter {
+    color: blue;
+}
+
+header .center h2 {
+    padding: 15px 0px;
+    color: red;
+    margin: 5px 10px;
+}
+
+
+header .center a {
+    background-color: rgb(91, 174, 226);
+    color: white;
+    text-decoration: none;
+    padding:10px 30px;
+    text-transform: uppercase;
+    font-size: 18px;
+    display: inline-block;
+    border: 1px solid rgb(41, 41, 105);
+    border-radius: 7px;
+    margin-right: 10px;
+   
+    
+}
+header .center a:hover{
+    background-color:#fff;
+    color:  rgb(91, 174, 226);
+    
+}
+header .right-section {
+    width: 15%;
+    float: left;
+}
+
+header .right-section .find {
+    background: url(../images/search.png) 151px 2px;
+    width: 174px;
+    height: 30px;
+    background-repeat: no-repeat;
+    padding: 5px;
+    border: 1px solid rgb(41, 41, 105);
+    margin-left: 1px;
+ 
+
+}
+
+
+header .right-section select {
+    margin-top: 10px;
+    width: 174px;
+    border: 1px solid rgb(41, 41, 105);
+    color: rgb(41, 41, 105);
+    padding: 5px;
+}
+.anket{
+    margin-right: 10px;
+}
+
+
+/* Section */
+
+#main-content {
+    overflow: hidden;
+}
+
+#main-content #nav-left img {
+    padding-left: 55px;
+}
+
+#main-content #nav-left {
+    border: 1px solid rgb(211, 211, 211);
+    background-color: rgba(255, 255, 255, 0.7);
+    float: left;
+    padding: 5px;
+    font-size: 15px;
+    line-height: 1.5;
+    width: 15%;
+    margin: 10px;
+    
+    
+}
+
+
+#main-content #nav-left h3 {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+}
+
+#main-content #content {
+    border: 1px solid lightgray;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 15px;
+    float: left;
+    width: 67%;
+    margin: 10px;
+}
+#main-content #content p{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+}
+#main-content #content h3 {
+    text-align: center;
+    font-size: 35px;
+    padding: 15px 0px;
+}
+
+#main-content #content hr {
+    margin: 15px 0px;
+}
+
+#main-content #content .blockquote {
+    border-style: none solid;
+    border-width: 2px;
+    border-color: rgb(128, 164, 180);
+    padding: 20px 20px;
+    margin: 10px 25px;
+}
+
+#main-content #content .blockquote p:nth-of-type(1) {
+    color: rgb(147, 76, 242);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#main-content #content table {
+    width: 100%;
+    border: 1px solid lightgray;
+}
+
+#main-content #content table tr {
+    text-align: center;
+}
+
+#main-content #content table th {
+    background-color: rgb(238, 238, 238);
+}
+
+#main-content #content table tfoot td {
+    background-color: rgb(89, 174, 228);
+    color: white;
+    text-align: center;
+}
+
+#main-content #content table tfoot td a {
+    color: yellow;
+}
+
+#main-content #content fieldset {
+    float: left;
+    width: 40%;
+    margin: 10px;
+    border: 1px solid lightgray;
+    height: 300px;
+}
+
+#main-content #content fieldset input:nth-of-type(1) {
+    margin: 15px 0px;
+}
+
+#main-content #content fieldset textarea {
+    margin: 15px 0px;
+}
+
+
+#main-content #content fieldset input:nth-of-type(3) {
+    margin: 15px 0px;
+    background-color: rgb(89, 174, 228);
+    border: none;
+    padding: 5px 25px;
+    color: white;
+}
+
+#main-content #content fieldset .send {
+    margin: 5px 0px;
+    background-color: rgba(89, 174, 228, 1);
+    border: none;
+    padding: 5px 55px;
+    color: white;
+}
+
+#main-content #sprite-rihgt {
+    margin: auto;
+    border: 1px solid lightgray;
+    background-color: rgba(255, 255, 255, 0.7);
+    float: left;
+    padding: 0px 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+#main-content #sprite-rihgt p {
+    font-weight: bold;
+}
+
+#main-content #sprite-rihgt .html {
+    left: 0px;
+    width: 75px;
+    height: 72px;
+    background: url(../images/sprite.png) 2px 129px;
+    background-size: auto;
+    margin-top: 10px;
+   
+}
+
+#sprite-rihgt .html p {
+    text-align: center;
+    display: inline-block;
+}
+
+#main-content #sprite-rihgt .css {
+    left: 0px;
+    width: 75px;
+    height: 72px;
+    background: url(../images/sprite.png) -66px 186px;
+    background-size: auto;
+    margin-top: 50px;
+}
+
+#sprite-rihgt .css p {
+    text-align: center;
+    display: inline-block;
+}
+
+#main-content #sprite-rihgt .bootstrap {
+    left: 0px;
+    width: 75px;
+    height: 58px;
+    background: url(../images/sprite.png) 8px 187px;
+    background-size: auto;
+    margin-top: 50px;
+}
+
+#sprite-rihgt .bootstrap p {
+    text-align: center;
+    display: inline-block;
+}
+
+#main-content #sprite-rihgt .javascript {
+    left: 0px;
+    width: 75px;
+    height: 45px;
+    background: url(../images/sprite.png) -67px 114px;
+    background-size: auto;
+    margin-top: 50px;
+}
+
+#sprite-rihgt .javascript p {
+    text-align: center;
+    display: inline-block;
+}
+
+#main-content #sprite-rihgt .react {
+    left: 0px;
+    width: 75px;
+    height: 60px;
+    background: url(../images/sprite.png) -65px 61px;
+    background-size: auto;
+    margin-top: 50px;
+}
+
+#sprite-rihgt .react p {
+    text-align: center;
+    display: inline-block;
+}
+
+/* Footer */
+
+footer table {
+    background-color: rgba(0, 60, 95, 0.7);
+    color: white;
+    width: 100%;
+    padding: 10px 400px;
+}
+
+footer table td p {
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer table td:nth-of-type(2) {
+    border-style: none solid;
+    border-width: 1px;
+}
+
+footer .copyright {
+    background-color: rgba(102, 104, 142, 0.7);
+}
+
+footer .copyright p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    padding: 3px 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
